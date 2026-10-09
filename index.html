@@ -330,7 +330,21 @@
     // Earbuds, Power Banks, Smartwatches.
     // Set image to a direct image URL, or leave it empty to use the emoji.
     const productsData = [
-      { id: 1, name: "Samsung Galaxy Phone", category: "Phones", price: 89999, emoji: "📱", image: "", description: "Add your model and storage details" },
+      {
+  id: 1,
+  name: "Samsung Galaxy S24 Ultra",
+  category: "Phones",
+  price: 289999,
+  emoji: "📱",
+  image: "",
+  images: [
+    "images/samsung-front.jpg",
+    "images/samsung-back.jpg",
+    "images/samsung-side.jpg",
+    "images/samsung-camera.jpg"
+  ],
+  description: "Samsung Galaxy S24 Ultra"
+},
       { id: 2, name: "iPhone", category: "Phones", price: 149999, emoji: "📱", image: "", description: "Add model and storage details" },
       { id: 3, name: "Android Phone", category: "Phones", price: 49999, emoji: "📲", image: "", description: "Add brand and model details" },
       { id: 4, name: "Premium Phone Cover", category: "Covers", price: 799, emoji: "📱", image: "", description: "Protective phone case" },
